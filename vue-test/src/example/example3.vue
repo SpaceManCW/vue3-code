@@ -1,6 +1,6 @@
 <template>
   <div>
-    <H2>ref()</H2> 
+    <h2>ref()</h2> 
     <div @click="changeMessage">
       {{ message }}
     </div>
@@ -16,6 +16,7 @@
     <p>实现相应式的原理则是监听value属性值的变化</p>
     <p>特点：具有深层响应性：即使是数组的变化或者是对象属性的变化，也能检测到</p>
     <p>补充：不想使用深层响应性就使用shallowRef</p>
+    <p>Dom的更新时间不是同步的，想要在Dom完成更新之后做一些操作需要在nextTick的回调中完成</p>
   </div>
 </template>
 
