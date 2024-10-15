@@ -2,6 +2,9 @@ import { createApp } from 'vue';
 import App from './App.vue';
 import router from './router'
 
+// 引入全局组件
+import GlobalCom from '@/components/GlobalCom.vue'
+
 /**
  * createApp()  创建应用实例
  * 接受一个根组件作为应用的入口
@@ -20,4 +23,6 @@ app.config.globalProperties.$appName = 'Vue3 Code'
  * use需要在mount之前调用
  */
 app.use(router)
+// 注册全局组件
+app.component('GlobalCom',GlobalCom)
 app.mount('#app')

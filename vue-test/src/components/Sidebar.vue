@@ -21,6 +21,8 @@ const sideList = ref([
   { name: '生命周期', path: '/example9' },
   { name: '侦听器watch', path: '/example10' },
   { name: '模版引用', path: '/example11' },
+  { name: '组件基础', path: '/example12' },
+  { name: '深入组件', path: '/example13' },
 ])
 </script>
 

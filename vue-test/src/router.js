@@ -11,7 +11,9 @@ import Example8 from './example/example8.vue'
 import Example9 from './example/example9.vue'
 import Example10 from './example/example10.vue'
 import Example11 from './example/example11.vue'
-// import Example12 from './example/example12.vue'
+import Example12 from './example/example12.vue'
+import Example13 from './example/example13.vue'
+
 
 
 const routes = [
@@ -26,8 +28,8 @@ const routes = [
   { path: '/example9', component: Example9 },
   { path: '/example10', component: Example10 },
   { path: '/example11', component: Example11 },
-  // { path: '/example12', component: Example12 },
-  // { path: '/example13', component: Example13 },
+  { path: '/example12', component: Example12 },
+  { path: '/example13', component: Example13 },
 ]
 
 const router = createRouter({
